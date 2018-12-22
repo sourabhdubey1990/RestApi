@@ -19,7 +19,7 @@ public class TestGetMathod {
 		RestResponse respnse=RestApiHelper.performGetRequest(url, null);
 		Assert.assertEquals(HttpStatus.SC_OK, respnse.getStatuscode());
 		Assert.assertEquals("Hi! Hello", respnse.getBody());
-		
+		System.out.println("Bhai ko");
 	}
 
 }
